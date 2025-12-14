@@ -1,0 +1,28 @@
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #1e293b;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Light Mode */
+body.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+body.light .section,
+body.light .alt {
+  background: #ffffff;
+}
+
+body.light p,
+body.light li {
+  color: #334155;
+}

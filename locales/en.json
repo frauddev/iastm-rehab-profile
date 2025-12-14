@@ -1,0 +1,22 @@
+{
+  "heroTitle": "IASTM Massage Therapy",
+  "heroSubtitle": "Professional therapy for muscle recovery and mobility",
+  "contactButton": "Chat on WhatsApp",
+
+  "bioTitle": "About Me",
+  "bioText": "I specialize in IASTM therapy to help reduce pain, release tension, and improve movement.",
+
+  "servicesTitle": "Services",
+  "service1": "IASTM Soft Tissue Therapy",
+  "service2": "Injury Recovery",
+  "service3": "Sports Massage",
+
+  "scheduleTitle": "Schedule",
+  "scheduleText": "Monday – Saturday, 09:00 – 20:00",
+
+  "bookingTitle": "Booking Request",
+  "nameLabel": "Your Name",
+  "dateLabel": "Preferred Date",
+  "messageLabel": "Notes (optional)",
+  "submitButton": "Send via WhatsApp"
+}
