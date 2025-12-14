@@ -19,8 +19,8 @@ document.getElementById("bookingForm")?.addEventListener("submit", e => {
         ${message}`
     )
 
-    window.open(`https://wa.me/081229331769?text=${text}`, "_blank")
+    window.open(`https://wa.me/6281229331769?text=${text}`, "_blank")
 })
 
 document.getElementById("whatsappBtn").href =
-  `https://wa.me/628123456789?text=Hello,%20I%20want%20to%20book%20an%20IASTM%20session`;
+  `https://wa.me/6281229331769?text=Hello,%20I%20want%20to%20book%20an%20IASTM%20session`;
