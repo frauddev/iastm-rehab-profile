@@ -1,109 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Valentology - IASTM Massage Therapy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Valentology – Rehab IASTM Massage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?familyInter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
 
-  <!-- Language Switch -->
-  <div class="lang-switch">
-    <button data-lang="en">EN</button>
-    <button data-lang="ua">UA</button>
-  </div>
-
-  <!-- Dark / Light Toggle -->
-  <button id="themeToggle" class="theme-toggle">🌙</button>
-
-  <!-- Hero Section -->
-  <section class="hero parallax">
-    <div class="overlay">
-      <h1 data-i18n="heroTitle"></h1>
-      <p data-i18n="heroSubtitle"></p>
-      <a
-        class="btn"
-        href="https://wa.me/628123456789"
-        target="_blank"
-        data-i18n="contactButton"
-      ></a>
+    <!-- Language Switch -->
+    <div class="lang-switch">
+        <button data-lang="en">EN</button>
+        <button data-lang="ua">UA</button>
     </div>
-  </section>
 
-  <!-- About -->
-  <section class="section">
-    <h2 data-i18n="bioTitle"></h2>
-    <p data-i18n="bioText"></p>
-  </section>
+    <!-- Dark / Light Toggle -->
+    <button id="themeToggle" class="theme-toggle">🌙</button>
 
-  <!-- Services -->
-  <section class="section alt">
-    <h2 data-i18n="servicesTitle"></h2>
-    <ul>
-      <li data-i18n="service1"></li>
-      <li data-i18n="service2"></li>
-      <li data-i18n="service3"></li>
-    </ul>
-  </section>
+    <!-- HERO (IMAGE BACKGROUND) -->
+    <section class="hero parallax" style="background-image: url('images/val-bg.webp');">
+        <div class="overlay">
 
-  <!-- Schedule -->
-  <section class="section">
-    <h2 data-i18n="scheduleTitle"></h2>
-    <p data-i18n="scheduleText"></p>
-  </section>
+            <!-- LOGO -->
+            <img src="images/logo.png" alt="Valentology Rehab IASTM Massage" class="logo" />
 
-  <!-- Booking Form -->
-  <section class="section alt">
-    <h2 data-i18n="bookingTitle"></h2>
+            <h1 data-i18n="heroTitle"></h1>
+            <p data-i18n="heroSubtitle"></p>
 
-    <form id="bookingForm" class="booking-form">
-      <input
-        type="text"
-        id="name"
-        required
-        placeholder="Your Name"
-      />
+            <a class="btn" href="https://wa.me/628123456789" target="_blank" data-i18n="contactButton"></a>
+        </div>
+    </section>
 
-      <input
-        type="date"
-        id="date"
-        required
-      />
+    <!-- ABOUT -->
+    <section class="section">
+        <img src="images/Massage-lotus-blossom.png" alt="Massage Lotus Blossom" class="section-image" />
 
-      <textarea
-        id="message"
-        rows="4"
-        placeholder="Notes (optional)"
-      ></textarea>
+        <h2 data-i18n="bioTitle"></h2>
+        <p data-i18n="bioText"></p>
+    </section>
 
-      <button type="submit" class="btn" data-i18n="submitButton"></button>
-    </form>
-  </section>
+    <!-- SERVICES -->
+    <section class="section alt">
+        <h2 data-i18n="servicesTitle"></h2>
+        <ul>
+            <li data-i18n="service1"></li>
+            <li data-i18n="service2"></li>
+            <li data-i18n="service3"></li>
+        </ul>
+    </section>
 
-  <!-- Instagram -->
-  <section class="section">
-    <h2>Instagram</h2>
-    <div class="instagram">
-      <a href="https://instagram.com/vallen.tiny" target="_blank">
-        Follow on Instagram
-      </a>
-    </div>
-  </section>
+    <!-- SCHEDULE -->
+    <section class="section">
+        <h2 data-i18n="scheduleTitle"></h2>
+        <p data-i18n="scheduleText"></p>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 IASTM Massage Therapy</p>
-  </footer>
+    <!-- BOOKING -->
+    <section class="section alt">
+        <h2 data-i18n="bookingTitle"></h2>
 
-  <!-- JS -->
-  <script src="assets/js/i18n.js"></script>
-  <script src="assets/js/main.js"></script>
+        <form id="bookingForm" class="booking-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+
+            <input type="date" id="date" required />
+
+            <textarea id="message" rows="4" placeholder="Notes (optional)"></textarea>
+
+            <button type="submit" class="btn" data-i18n="submitButton"></button>
+        </form>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section">
+        <h2>Instagram</h2>
+        <div class="instagram">
+            <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
+                Follow @Valentology
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Valentology Rehab IASTM Massage</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
