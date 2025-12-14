@@ -19,5 +19,5 @@ document.getElementById("bookingForm")?.addEventListener("submit", e => {
         ${message}`
     )
 
-    window.open(`https://wa.me/628123456789?text=${text}`, "_blank")
+    window.open(`https://wa.me/081229331769?text=${text}`, "_blank")
 })

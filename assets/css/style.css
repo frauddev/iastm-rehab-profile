@@ -29,7 +29,7 @@ body.light li {
 
 .hero {
   height: 100vh;
-  background: url("../images/val-bg.webp") center / cover no-repeat fixed;
+  background: url("assets/images/val-bg.webp") center / cover no-repeat fixed;
   position: relative;
 }
 
