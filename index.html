@@ -1,106 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Valentology – Rehab IASTM Massage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style1.css" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- LANGUAGE SWITCH -->
     <div class="lang-switch">
-        <button data-lang="en">EN</button>
-        <button data-lang="ua">UA</button>
+      <button data-lang="en">EN</button>
+      <button data-lang="ua">UA</button>
     </div>
 
     <!-- THEME TOGGLE -->
     <button id="themeToggle" class="theme-toggle">🌙</button>
 
     <!-- HERO -->
-    <header class="hero parallax" style="background-image: url('assets/images/val-bg.webp');">
-        <div class="overlay">
-            <img src="assets/images/logo-transpa.png" alt="Valentology Rehab IASTM Massage" class="logo" />
+    <header
+      class="hero parallax"
+      style="background-image: url('assets/images/val-bg.webp')"
+    >
+      <div class="overlay">
+        <img
+          src="assets/images/logo-transpa.png"
+          alt="Valentology Rehab IASTM Massage"
+          class="logo"
+        />
 
-            <h1 data-i18n="heroTitle"></h1>
-            <p class="subtitle" data-i18n="heroSubtitle"></p>
+        <h1 data-i18n="heroTitle"></h1>
+        <p class="subtitle" data-i18n="heroSubtitle"></p>
 
-            <!-- WhatsApp CTA -->
-            <a id="whatsappBtn" class="contact-btn" target="_blank" data-i18n="contactButton">
-            </a>
-        </div>
+        <!-- WhatsApp CTA -->
+        <a
+          id="whatsappBtn"
+          class="contact-btn"
+          target="_blank"
+          data-i18n="contactButton"
+        >
+        </a>
+      </div>
     </header>
 
     <!-- ABOUT -->
     <section class="section">
-        <img src="assets/images/Massage-lotus-blossom.png" alt="Massage Lotus Blossom" class="section-image" />
+      <img
+        src="assets/images/Massage-lotus-blossom.png"
+        alt="Massage Lotus Blossom"
+        class="section-image"
+      />
 
-        <h2 data-i18n="bioTitle"></h2>
-        <p data-i18n="bioText"></p>
+      <h2 data-i18n="bioTitle"></h2>
+      <p data-i18n="bioText"></p>
     </section>
 
     <!-- SERVICES -->
     <section class="section alt">
-        <h2 data-i18n="servicesTitle"></h2>
-        <ul>
-            <li data-i18n="service1"></li>
-            <li data-i18n="service2"></li>
-            <li data-i18n="service3"></li>
-        </ul>
+      <h2 data-i18n="servicesTitle"></h2>
+      <ul>
+        <li data-i18n="service1"></li>
+        <li data-i18n="service2"></li>
+        <li data-i18n="service3"></li>
+      </ul>
     </section>
 
     <!-- SCHEDULE -->
     <section class="section">
-        <h2 data-i18n="scheduleTitle"></h2>
-        <p class="schedule" data-i18n="scheduleText"></p>
+      <h2 data-i18n="scheduleTitle"></h2>
+      <p class="schedule" data-i18n="scheduleText"></p>
     </section>
 
     <!-- BOOKING -->
     <section class="section alt">
-        <h2 data-i18n="bookingTitle"></h2>
+      <h2 data-i18n="bookingTitle"></h2>
 
-        <form id="bookingForm" class="booking-form">
-            <input type="text" id="name" placeholder="Your Name" required />
-            <input type="date" id="date" required />
-            <textarea id="message" rows="4" placeholder="Notes (optional)"></textarea>
+      <form id="bookingForm" class="booking-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="date" id="date" required />
+        <textarea
+          id="message"
+          rows="4"
+          placeholder="Notes (optional)"
+        ></textarea>
 
-            <button type="submit" class="contact-btn" data-i18n="submitButton">
-            </button>
-        </form>
+        <button
+          type="submit"
+          class="contact-btn"
+          data-i18n="submitButton"
+        ></button>
+      </form>
     </section>
 
     <!-- INSTAGRAM -->
-    <section class="section">
-        <h2>Instagram</h2>
-        <div class="instagram">
-            <a href="https://instagram.com/vallen.tiny" target="_blank">
-                Follow @Valentology
-            </a>
+    <section class="section instagram-section">
+      <h2>Instagram</h2>
+      <div class="instagram">
+        <a href="https://instagram.com/vallen.tiny" target="_blank">
+          Follow @Valentology
+        </a>
+      </div>
+      <div class="ig-center">
+        <blockquote
+          class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/vallen.tiny"
+          data-instgrm-version="14"
+        ></blockquote>
+      </div>
+    </section>
+
+    <section class="reel-section">
+      <div class="reel-frame">
+        <video class="reel-video" autoplay muted loop playsinline>
+          <source src="assets/video/content.mp4" type="video/mp4" />
+        </video>
+
+        <div class="reel-overlay">
+          <h3 data-i18n="videoTitle">Healing Through Touch</h3>
+          <p data-i18n="videoSubtitle">
+            Gentle IASTM therapy for recovery & balance
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 Valentology – Rehab IASTM Massage</p>
+      <p>© 2025 Valentology – Rehab IASTM Massage</p>
     </footer>
 
     <!-- JS -->
+    <div class="ig-feed" id="ig-feed"></div>
+
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <script async src="https://www.instagram.com/embed.js"></script>
     <script src="assets/js/i18n.js"></script>
     <script src="assets/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
