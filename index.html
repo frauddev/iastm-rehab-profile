@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IASTM Massage Therapy by Valentyna</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --primary: #1f6f78;
+      --accent: #3fc1c9;
+      --light: #f4f9f9;
+      --dark: #102a2e;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Parallax sections */
+    .parallax {
+      min-height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero {
+      background-image: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+      ),
+      url("https://images.unsplash.com/photo-1600334129128-685c5582fd35");
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 40px 24px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      margin: 24px auto;
+      max-width: 900px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .service {
+      background: var(--light);
+      padding: 24px;
+      border-radius: 16px;
+    }
+
+    .schedule {
+      background: var(--primary);
+      color: white;
+    }
+
+    .schedule p {
+      opacity: 0.95;
+    }
+
+    .contact {
+      background: var(--light);
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 28px;
+      background: #25d366;
+      color: white;
+      font-weight: 600;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .whatsapp-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    /* Mobile fix for parallax */
+    @media (max-width: 768px) {
+      .parallax {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="parallax hero">
+    <div>
+      <h1>IASTM Massage Therapy</h1>
+      <p>
+        Instrument Assisted Soft Tissue Mobilization<br>
+        Recover • Restore • Perform
+      </p>
+    </div>
+  </section>
+
+  <!-- BIO -->
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a certified massage therapist specializing in
+        <strong>IASTM (Instrument Assisted Soft Tissue Mobilization)</strong>.
+        My focus is helping clients reduce pain, improve mobility,
+        accelerate recovery, and enhance physical performance through
+        evidence-based manual therapy techniques.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section>
+    <div class="card">
+      <h2>Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>IASTM Therapy</h3>
+          <p>
+            Targeted soft tissue treatment to break down adhesions,
+            improve circulation, and restore movement.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Sports Recovery</h3>
+          <p>
+            Ideal for athletes to reduce muscle tightness,
+            speed up recovery, and prevent injuries.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Pain & Mobility Treatment</h3>
+          <p>
+            Effective for chronic pain, stiffness,
+            postural issues, and limited range of motion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section class="schedule">
+    <h2>Schedule</h2>
+    <p>
+      🗓 Available by appointment only<br>
+      ⏰ Monday – Saturday<br>
+      🕘 09:00 – 19:00
+    </p>
+    <p>
+      Home visit & private session available
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>
+      Book your session or ask questions directly via WhatsApp
+    </p>
+
+    <!-- CHANGE PHONE NUMBER HERE -->
+    <a
+      class="whatsapp-btn"
+      href="https://wa.me/628XXXXXXXXX"
+      target="_blank"
+    >
+      💬 Chat on WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2025 IASTM Massage Therapy • All rights reserved
+  </footer>
+
+</body>
+</html>
