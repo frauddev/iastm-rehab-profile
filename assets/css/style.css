@@ -56,3 +56,85 @@ body.light li {
   width: 120px;
   margin-bottom: 20px;
 }
+
+
+/* Language Switch */
+.lang-switch {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+}
+
+.lang-switch button {
+  background: #1e293b;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  margin-left: 4px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  max-width: 600px;
+  margin-bottom: 20px;
+  color: #e5e7eb;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  padding: 14px 26px;
+  border-radius: 999px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+}
+
+.section p,
+.section li {
+  color: #cbd5f5;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.alt {
+  background: #020617;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #64748b;
+}
